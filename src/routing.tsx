@@ -21,9 +21,8 @@ export const Routing: FC = () => (
       <Route element={<PrivateRoutes />}>
         <Route path="/home" element={<HomePage />} />
       </Route>
-      <Route path="/" element={<HomePage />} />
-      {/* <Route path="/login" element={<AuthPage />} />
-      <Route path="/*" element={<AuthPage />} /> */}
+      <Route path="/login" element={<AuthPage />} />
+      <Route path="/*" element={<AuthPage />} />
     </Routes>
   </BrowserRouter>
 );
